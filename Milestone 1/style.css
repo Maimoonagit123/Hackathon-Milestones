@@ -1,0 +1,79 @@
+.Left {
+    background-color: rgb(16, 16, 65);
+    width: 30%;
+    color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+    border-right: 5px solid rgb(27, 137, 170);
+}
+
+.Profile {
+    width: 150px;
+    height: 110px;
+    margin: 5% auto 10px;
+    border-radius: 50%;
+    border: 5px solid lightskyblue;
+    padding: 2px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px lightblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Container {
+    display: flex;
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Right {
+    padding: 0;
+    width: 65%; 
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .Container {
+        flex-direction: column;
+    }
+
+    .Left, .Right {
+        width: 100%;
+        border-right: none; 
+        margin-left: 0; 
+    }
+}
+  
+ul li{
+    margin: 3px 0;
+}
+
+button{
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10px ;
+    box-shadow: 0 0 15px rgb(76, 194, 233);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+button:hover{
+    background-color: rgb(16, 107, 150);
+}
